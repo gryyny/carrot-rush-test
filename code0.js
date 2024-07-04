@@ -159,7 +159,7 @@ asyncObjectsList.restoreLocalVariablesContainers(gdjs.MenuCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("New_Menu_Background"), gdjs.MenuCode.GDNew_9595Menu_9595BackgroundObjects4);
 
 {for(var i = 0, len = gdjs.MenuCode.GDNew_9595Menu_9595BackgroundObjects4.length ;i < len;++i) {
-    gdjs.MenuCode.GDNew_9595Menu_9595BackgroundObjects4[i].getBehavior("Tween").addObjectScaleTween3("Grow", 1.3, "linear", 0.4, false, true);
+    gdjs.MenuCode.GDNew_9595Menu_9595BackgroundObjects4[i].getBehavior("Tween").addObjectScaleTween3("Grow", 1.45, "linear", 0.4, false, true);
 }
 }gdjs.MenuCode.localVariables.length = 0;
 }
@@ -186,7 +186,7 @@ asyncObjectsList.restoreLocalVariablesContainers(gdjs.MenuCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("New_Menu_Background"), gdjs.MenuCode.GDNew_9595Menu_9595BackgroundObjects3);
 
 {for(var i = 0, len = gdjs.MenuCode.GDNew_9595Menu_9595BackgroundObjects3.length ;i < len;++i) {
-    gdjs.MenuCode.GDNew_9595Menu_9595BackgroundObjects3[i].getBehavior("Tween").addObjectScaleTween3("Grow", 1.25, "linear", 0.4, false, true);
+    gdjs.MenuCode.GDNew_9595Menu_9595BackgroundObjects3[i].getBehavior("Tween").addObjectScaleTween3("Grow", 1.4, "linear", 0.4, false, true);
 }
 }
 { //Subevents
@@ -216,7 +216,7 @@ asyncObjectsList.restoreLocalVariablesContainers(gdjs.MenuCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("New_Menu_Background"), gdjs.MenuCode.GDNew_9595Menu_9595BackgroundObjects2);
 
 {for(var i = 0, len = gdjs.MenuCode.GDNew_9595Menu_9595BackgroundObjects2.length ;i < len;++i) {
-    gdjs.MenuCode.GDNew_9595Menu_9595BackgroundObjects2[i].getBehavior("Tween").addObjectScaleTween3("Grow", 1.3, "linear", 0.4, false, true);
+    gdjs.MenuCode.GDNew_9595Menu_9595BackgroundObjects2[i].getBehavior("Tween").addObjectScaleTween3("Grow", 1.45, "linear", 0.4, false, true);
 }
 }
 { //Subevents
@@ -382,7 +382,7 @@ isConditionTrue_0 = gdjs.evtsExt__RepeatEveryXSeconds__Repeat.func(runtimeScene,
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("New_Menu_Background"), gdjs.MenuCode.GDNew_9595Menu_9595BackgroundObjects1);
 {for(var i = 0, len = gdjs.MenuCode.GDNew_9595Menu_9595BackgroundObjects1.length ;i < len;++i) {
-    gdjs.MenuCode.GDNew_9595Menu_9595BackgroundObjects1[i].getBehavior("Tween").addObjectScaleTween3("Grow", 1.25, "linear", 0.4, false, true);
+    gdjs.MenuCode.GDNew_9595Menu_9595BackgroundObjects1[i].getBehavior("Tween").addObjectScaleTween3("Grow", 1.4, "linear", 0.4, false, true);
 }
 }
 { //Subevents

@@ -8237,10 +8237,26 @@ gdjs.copyArray(runtimeScene.getObjects("ExitButton"), gdjs.Carrot_32Rush_32GameC
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Carrot_32Rush_32GameCode.mapOfGDgdjs_9546Carrot_959532Rush_959532GameCode_9546GDExitButtonObjects1Objects, runtimeScene, true, false);
+{let isConditionTrue_1 = false;
+isConditionTrue_0 = false;
+{
+isConditionTrue_1 = gdjs.evtTools.input.hasTouchEnded(runtimeScene, 1);
+if(isConditionTrue_1) {
+    isConditionTrue_0 = true;
+}
+}
+{
+isConditionTrue_1 = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
+if(isConditionTrue_1) {
+    isConditionTrue_0 = true;
+}
+}
+{
+}
+}
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Carrot_32Rush_32GameCode.mapOfGDgdjs_9546Carrot_959532Rush_959532GameCode_9546GDExitButtonObjects1Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
 {isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25839444);
