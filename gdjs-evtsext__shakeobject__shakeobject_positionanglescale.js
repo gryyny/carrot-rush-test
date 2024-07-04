@@ -35,6 +35,7 @@ gdjs.evtsExt__ShakeObject__ShakeObject_PositionAngleScale.ShakeObject_PositionAn
     };
   }
   updateFromNetworkSyncData(networkSyncData) {
+    super.updateFromNetworkSyncData(networkSyncData);
     
   }
 
@@ -1918,7 +1919,7 @@ gdjs.copyArray(gdjs.evtsExt__ShakeObject__ShakeObject_PositionAngleScale.ShakeOb
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(17252644);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(21416060);
 }
 }
 if (isConditionTrue_0) {

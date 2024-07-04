@@ -139,6 +139,7 @@ gdjs.evtsExt__FireBullet__FireBullet.FireBullet = class FireBullet extends gdjs.
     };
   }
   updateFromNetworkSyncData(networkSyncData) {
+    super.updateFromNetworkSyncData(networkSyncData);
     
     if (networkSyncData.props.FireCooldown !== undefined)
       this._behaviorData.FireCooldown = networkSyncData.props.FireCooldown;

@@ -51,6 +51,7 @@ gdjs.evtsExt__PanelSpriteContinuousBar__ResourceBar.ResourceBar = class Resource
     };
   }
   updateFromNetworkSyncData(networkSyncData) {
+    super.updateFromNetworkSyncData(networkSyncData);
     
     if (networkSyncData.props.Value !== undefined)
       this._behaviorData.Value = networkSyncData.props.Value;

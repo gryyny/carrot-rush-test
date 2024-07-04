@@ -51,6 +51,7 @@ gdjs.evtsExt__SpriteMultitouchJoystick__TopDownMultitouchMapper.TopDownMultitouc
     };
   }
   updateFromNetworkSyncData(networkSyncData) {
+    super.updateFromNetworkSyncData(networkSyncData);
     
     if (networkSyncData.props.TopDownMovement !== undefined)
       this._behaviorData.TopDownMovement = networkSyncData.props.TopDownMovement;

@@ -59,6 +59,7 @@ gdjs.evtsExt__Bounce__Bounce.Bounce = class Bounce extends gdjs.RuntimeBehavior 
     };
   }
   updateFromNetworkSyncData(networkSyncData) {
+    super.updateFromNetworkSyncData(networkSyncData);
     
     if (networkSyncData.props.OldX !== undefined)
       this._behaviorData.OldX = networkSyncData.props.OldX;

@@ -51,6 +51,7 @@ gdjs.evtsExt__RepeatEveryXSeconds__RepeatTimer.RepeatTimer = class RepeatTimer e
     };
   }
   updateFromNetworkSyncData(networkSyncData) {
+    super.updateFromNetworkSyncData(networkSyncData);
     
     if (networkSyncData.props.TimerName !== undefined)
       this._behaviorData.TimerName = networkSyncData.props.TimerName;

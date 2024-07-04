@@ -59,6 +59,7 @@ gdjs.evtsExt__Flash__FlashOpacity.FlashOpacity = class FlashOpacity extends gdjs
     };
   }
   updateFromNetworkSyncData(networkSyncData) {
+    super.updateFromNetworkSyncData(networkSyncData);
     
     if (networkSyncData.props.TweenBehavior !== undefined)
       this._behaviorData.TweenBehavior = networkSyncData.props.TweenBehavior;
